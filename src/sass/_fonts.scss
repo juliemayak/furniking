@@ -1,0 +1,61 @@
+// Rubik
+@include font-face(
+  'Rubik',
+  '/fonts/Rubik/RubikRegular',
+  400,
+  null,
+  woff2 woff,
+  'Rubik'
+);
+@include font-face(
+  'Rubik',
+  '/fonts/Rubik/RubikMedium',
+  500,
+  null,
+  woff2 woff,
+  'Rubik'
+);
+
+// Mulish
+@include font-face(
+  'Mulish',
+  '/fonts/Mulish/MulishRegular',
+  400,
+  null,
+  woff2 woff,
+  'Mulish'
+);
+@include font-face(
+  'Mulish',
+  '/fonts/Mulish/MulishSemiBold',
+  600,
+  null,
+  woff2 woff,
+  'Mulish'
+);
+@include font-face(
+  'Mulish',
+  '/fonts/Mulish/MulishBold',
+  700,
+  null,
+  woff2 woff,
+  'Mulish'
+);
+
+// DM Sans
+@include font-face(
+  'DMSans',
+  '/fonts/DM-Sans/DMSansRegular',
+  400,
+  null,
+  woff2 woff,
+  'DMSans'
+);
+@include font-face(
+  'DMSans',
+  '/fonts/DM-Sans/DMSansMedium',
+  500,
+  null,
+  woff2 woff,
+  'DMSans'
+);

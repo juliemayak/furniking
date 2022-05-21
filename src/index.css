@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* hover */
+  .hover-scale-down {
+    @apply hover:scale-90 transition-all;
+  }
+
+  .hover-scale-up {
+    @apply hover:scale-105 transition-transform;
+  }
+
+  .hover-move-right {
+    @apply hover:translate-x-1 transition-transform;
+  }
+
+  .hover-opacity {
+    @apply hover:opacity-70 transition-all;
+  }
+
+  .hover-jump {
+    @apply hover:-translate-y-1 transition-transform;
+  }
+
+  /* selection */
+  .selection-default {
+    @apply selection:text-dark-gray selection:bg-white;
+  }
+  .selection-green {
+    @apply selection:bg-main-color selection:text-white;
+  }
+
+  /* text styling */
+
+  .h2-title {
+    @apply uppercase font-bold text-2xl text-center sm:text-4xl text-dark-gray font-mulish;
+  }
+
+  .btn-text {
+    @apply text-white uppercase font-mulish;
+  }
+}
